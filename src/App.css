@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em; /* Slightly smaller for better fit */
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+h2 {
+  font-size: 2em;
+  color: #333;
+  margin-top: 10px;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #4a90e2;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #4a90e2; /* Thinner border */
+  border-radius: 10px; /* More rounded corners */
+  width: calc(100% - 22px); /* Adjusting width for border */
+  margin-bottom: 10px; /* Less space to next element */
+  box-sizing: border-box;
+}
+
+button {
+  padding: 15px 20px; /* More padding for better touch */
+  font-size: 1em;
+  color: white;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 10px; /* More rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #357ab8; /* A slightly different hover color */
+}
+
+.wallet_flex {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.walletG, .walletD {
+  background-color: white;
+  border: 1px solid #4a90e2; /* Thinner border */
+  border-radius: 10px;
+  padding: 20px;
+  width: 45%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.walletG h3, .walletD h3 {
+  margin-top: 0;
+}
+
+.walletG input, .walletD input {
+  width: 100%; /* Ensure full width */
+}
+
+.walletG button, .walletD button {
+  width: 100%; /* Full width for consistency */
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
